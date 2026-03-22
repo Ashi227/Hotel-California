@@ -1,8 +1,8 @@
 <?php
-$host = "localhost";        // or your server name
-$dbname = "aurum_suites";   // your database name
-$username = "root";         // your MySQL username
-$password = "";             // your MySQL password (often empty for localhost)
+$host = "localhost";        // your server name
+$dbname = "aurum_suites";   // database name
+$username = "root";         // MySQL username
+$password = "";             // MySQL password (often empty for localhost)
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
